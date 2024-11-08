@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculadora.js"></script>
+    <style>
+        body  {
+          margin: 10px;
+          border: 1px solid blue;
+        }
+        button{
+            background-color: green;
+        }
+     
+      </style>
+</head>
+<body>
+    <form>
+    <p>Resultado: <input type="text" id="resultado" disabled></p>
+    <button type="button" id="1">1</button>
+    <button type="button" id="2">2</button>
+    <button type="button" id="3">3</button>
+    <button type="button" id="4">4</button>
+    <button type="button" id="5">5</button>
+    <button type="button" id="6">6</button>
+    <button type="button" id="7">7</button>
+    <button type="button" id="8">8</button>
+    <button type="button" id="9">9</button>
+    <div id="operaciones">
+        <button type="button" onclick="sumar()">+</button>
+        <button type="button" onclick="restar()">-</button>
+        <button type="button" onclick="multiplicar()">*</button>
+        <button type="button" onclick="dividir()">/</button>
+    </div>
+</form>
+</body>
+</html>
+
